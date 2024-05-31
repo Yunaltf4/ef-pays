@@ -54,7 +54,7 @@ function creation_destination()
             <button class="bouton_categorie">Islande</button>
             <button class="bouton_categorie">Chine</button>
             <button class="bouton_categorie">Grèce</button>
-            <button class="bouton_categorie">Suise</button>
+            <button class="bouton_categorie">Suisse</button>
         </div>
         <div class="contenu__restapi">
         </div>

@@ -1,6 +1,6 @@
 (function () {
     // URL de l'API REST de WordPress
-    console.log("pays");
+    console.log("Rest API");
     let bouton_categorie = document.querySelectorAll(".bouton_categorie");
 
     function rechercherParPays(pays) {
@@ -38,8 +38,11 @@
                     let carte = document.createElement("div");
                     carte.classList.add("restapi__carte");
                     carte.innerHTML = `
-                        <h2>${titre}</h2>
-                        <p>${contenu}</p>
+                        <img src="https://via.placeholder.com/150" alt="Placeholder">
+                        <div>
+                            <h2>${titre}</h2>
+                            <p>${contenu}</p>
+                        </div>
                     `;
                     restapi.appendChild(carte);
                 });
